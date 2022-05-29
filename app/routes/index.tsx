@@ -1,7 +1,13 @@
+import Footer from '~/components/Footer'
+import Header from '~/components/Header'
+import Hero from '~/components/Hero'
+
 export default function Index() {
   return (
     <div>
-      <h1>Welcome to Learn49</h1>
+      <Header />
+      <Hero />
+      <Footer />
     </div>
   )
 }
